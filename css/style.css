@@ -462,7 +462,8 @@ a:hover {
 
 .works {
   padding: 80px 0;
-  background: #FCFCFC;
+  background: rgb(252, 230, 230);
+
 }
 
 .works .block {
