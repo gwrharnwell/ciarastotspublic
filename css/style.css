@@ -196,7 +196,8 @@ a:hover {
 }
 
 .navbar-header .navbar-brand .navLogo {
-  margin-top: 0;
+  margin-top: -21px;
+  width:120px;
 }
 .navbar-header .navbar-brand a {
   height: auto;
@@ -1426,6 +1427,10 @@ px      68    160    252    */
     padding: 15px;
     color: #333;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .navLogo {
+    margin-top:-26px !important;
   }
 }
 
