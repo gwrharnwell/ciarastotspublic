@@ -465,7 +465,18 @@ a:hover {
 .works {
   padding: 80px 0;
   background: rgb(252, 230, 230);
+}
 
+#routine {
+  background: rgb(230, 230, 252);
+}
+
+#equality {
+  background: rgb(230, 252, 230);
+}
+
+#reward {
+  background: rgb(230, 175, 230);
 }
 
 .works .block {
@@ -1299,6 +1310,15 @@ ul.social-icons li {
 #copyright a:hover {
   text-decoration: none;
 }
+
+.curric {
+  font-size:16px;
+  margin-bottom:10px;
+}
+.curric img{
+  width:100%;
+}
+
 
 /* Responsive styles
 ================================================== */
