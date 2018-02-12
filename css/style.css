@@ -365,6 +365,13 @@ a:hover {
   border-radius: 0;
 }
 
+.hero-decide{
+  background: url("../images/play.jpg") no-repeat 50% !important;
+}
+.hero-dev {
+  background: url("../images/girl.jpg") no-repeat 50% !important;
+}
+
 #call-to-action {
   background: #02bdd5;
   background-size: cover;
