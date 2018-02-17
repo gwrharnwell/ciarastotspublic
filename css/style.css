@@ -1326,6 +1326,21 @@ ul.social-icons li {
   width:100%;
 }
 
+.divImg{
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  margin-right:150px;
+}
+
+.galleryThumb {
+  box-shadow:none;
+   padding:0 2%;
+   display:inline-block;
+}
+
 
 /* Responsive styles
 ================================================== */
