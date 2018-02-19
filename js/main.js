@@ -153,7 +153,7 @@ $(".fancybox").fancybox({
 
 
 
-var folder = "images/";
+var folder = "gallery/";
 var imgArr = [];
 
 $.ajax({
