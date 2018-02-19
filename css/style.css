@@ -1330,6 +1330,7 @@ ul.social-icons li {
   list-style: none outside none;
   padding-left: 0;
   margin-bottom:0;
+  background-color: #D3D3D3;
 }
 
 #lightSlider li {

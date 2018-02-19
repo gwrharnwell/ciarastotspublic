@@ -151,15 +151,7 @@ $(".fancybox").fancybox({
     }
 });
 
-$('#lightSlider').lightSlider({
-    gallery: true,
-    item: 1,
-    loop: true,
-    slideMargin: 0,
-    thumbItem: 9
-});
-
-var folder = "images/gallery/";
+var folder = "photogallery/";
 
 $.ajax({
     url: folder,
@@ -167,14 +159,20 @@ $.ajax({
         $(data).find("a").attr("href", function (i, val) {
             if (val.match(/\.(jpe?g|png|gif)$/)) {
 
-                var imgTemplate = '<li data-thumb="{{ image.image_path }}"><img src="{{ image.image_path }}" /></li>'
-                imgTemplate = imgTemplate.replace('{{ image.image_path }}', 'ciarastotspublic/' + folder + val);
-                imgTemplate = imgTemplate.replace('{{ image.image_path }}', 'ciarastotspublic/' + folder + val);
-                $("#lightSlider").append(imgTemplate);
+                var img = '<li data-thumb="' + folder + val + '"><img src="' + folder + val + '" /></li>'
+                $("#lightSlider").append(img);
 
             }
         });
     }
+});
+
+$('#lightSlider').lightSlider({
+    gallery: true,
+    item: 1,
+    loop: true,
+    slideMargin: 0,
+    thumbItem: 9
 });
 
 
