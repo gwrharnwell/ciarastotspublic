@@ -158,3 +158,23 @@ $('#lightSlider').lightSlider({
     slideMargin: 0,
     thumbItem: 9
 });
+
+var folder = "images/gallery/";
+
+$.ajax({
+    url: folder,
+    success: function (data) {
+        $(data).find("a").attr("href", function (i, val) {
+            if (val.match(/\.(jpe?g|png|gif)$/)) {
+
+                var imgTemplate = '<li data-thumb="{{ image.image_path }}"><img src="{{ image.image_path }}" /></li>'
+                imgTemplate = imgTemplate.replace('{{ image.image_path }}', folder + val);
+                imgTemplate = imgTemplate.replace('{{ image.image_path }}', folder + val);
+                $("#lightSlider").append(imgTemplate);
+
+            }
+        });
+    }
+});
+
+
