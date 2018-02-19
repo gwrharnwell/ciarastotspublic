@@ -1,7 +1,7 @@
 ---
 pages:
-- _photo_gallery/screen.md
 - _photo_gallery/cage.md
+- _photo_gallery/screen.md
 hide_body: false
 fields:
 - name: title
