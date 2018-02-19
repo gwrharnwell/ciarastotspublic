@@ -7,8 +7,8 @@ layout: default
         <div class="row">
             <ul id="lightSlider">
                 {% for image in site.photo_gallery %}
-                    <li data-thumb="{{ site.baseurl }}/{{ image.image_path }}">
-                        <img src="{{ site.baseurl }}/{{ image.image_path }}" />
+                    <li data-thumb="{{ image.image_path }}">
+                        <img src="{{ image.image_path }}" />
                     </li>
                 {% endfor %}
             </ul>
