@@ -1326,19 +1326,23 @@ ul.social-icons li {
   width:100%;
 }
 
-.divImg{
-  width: 150px;
-  height: 150px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  margin-right:150px;
+#lightSlider {
+  list-style: none outside none;
+  padding-left: 0;
+  margin-bottom:0;
 }
 
-.galleryThumb {
-  box-shadow:none;
-   padding:0 2%;
-   display:inline-block;
+#lightSlider li {
+  display: block;
+  float: left;
+  margin-right: 6px;
+  cursor:pointer;
+}
+
+#lightSlider li img {
+  display: block;
+  height: auto;
+  max-width: 100%;
 }
 
 
