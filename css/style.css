@@ -294,6 +294,13 @@ a:hover {
   background-color: transparent;
 }
 
+.nav .Facebook{
+  padding-top: 8px;
+  padding-bottom: 0px;
+  font-size: 27px !important;
+  color:#4267b2 !important;
+}
+
 #top-bar .dropdown-menu ul li a {
   display: block;
   font-size: 13px;
@@ -366,10 +373,10 @@ a:hover {
 }
 
 .hero-decide{
-  background: url("../images/play.jpg") no-repeat 50% !important;
+  background: url("../images/rainbow.jpg") no-repeat 50% !important;
 }
 .hero-dev {
-  background: url("../images/girl.jpg") no-repeat 50% !important;
+  background: url("../images/read.jpg") no-repeat 50% !important;
 }
 
 #call-to-action {
