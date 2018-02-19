@@ -168,8 +168,8 @@ $.ajax({
             if (val.match(/\.(jpe?g|png|gif)$/)) {
 
                 var imgTemplate = '<li data-thumb="{{ image.image_path }}"><img src="{{ image.image_path }}" /></li>'
-                imgTemplate = imgTemplate.replace('{{ image.image_path }}', folder + val);
-                imgTemplate = imgTemplate.replace('{{ image.image_path }}', folder + val);
+                imgTemplate = imgTemplate.replace('{{ image.image_path }}', 'ciarastotspublic/' + folder + val);
+                imgTemplate = imgTemplate.replace('{{ image.image_path }}', 'ciarastotspublic/' + folder + val);
                 $("#lightSlider").append(imgTemplate);
 
             }
