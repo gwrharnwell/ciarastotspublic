@@ -1,0 +1,12 @@
+---
+pages:
+- _photo_gallery/abc.md
+hide_body: false
+fields:
+- type: text
+  name: image_path
+  label: Image Name
+  description: 'The exact name of the image. Must be in the format: /images/{image_name.jpg}.
+    For example: /images/paint.jpg'
+  config:
+    required: true
