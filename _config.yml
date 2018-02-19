@@ -31,10 +31,7 @@ plugins:
   - jekyll-feed
 
 collections:
-  - photo_gallery 
-
-includes:
-  - photogallery
+  - photo_gallery
 
 
 # Exclude from processing.

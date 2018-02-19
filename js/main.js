@@ -151,22 +151,6 @@ $(".fancybox").fancybox({
     }
 });
 
-var folder = "photogallery/";
-
-$.ajax({
-    url: folder,
-    success: function (data) {
-        $(data).find("a").attr("href", function (i, val) {
-            if (val.match(/\.(jpe?g|png|gif)$/)) {
-
-                var img = '<li data-thumb="' + folder + val + '"><img src="' + folder + val + '" /></li>'
-                $("#lightSlider").append(img);
-
-            }
-        });
-    }
-});
-
 $('#lightSlider').lightSlider({
     gallery: true,
     item: 1,
