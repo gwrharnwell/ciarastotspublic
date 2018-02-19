@@ -31,8 +31,8 @@ plugins:
   - jekyll-feed
 
 collections:
-  - _photo_gallery
-
+  - photo_gallery
+  
 
 
 # Exclude from processing.
