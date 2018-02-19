@@ -153,7 +153,7 @@ $(".fancybox").fancybox({
 
 
 
-var folder = "gallery/";
+var folder = "gall/";
 var imgArr = [];
 
 $.ajax({
@@ -161,14 +161,14 @@ $.ajax({
     success: function (data) {
         $(data).find("a").attr("href", function (i, val) {
             // if (val.match(/\.(jpe?g|png|gif)$/)) {
-            if (val.startsWith('gallery_')) {
+            // if (val.startsWith('gallery_')) {
 
                 var imgTemplate = '<figure class="col-md-2 galleryThumb" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"><a href="{IMGHREF}" itemprop="contentUrl" data-size="600x400"><div class="divImg" itemprop="thumbnail" alt="Image description" style="background-image:url(\'{IMGHREF}\');"></div></a><figcaption itemprop="caption description"></figcaption></figure>'
                 imgTemplate = imgTemplate.replace('{IMGHREF}', folder + val);
                 imgTemplate = imgTemplate.replace('{IMGHREF}', folder + val);
                 $(".my-gallery").append(imgTemplate);
 
-            }
+            // }
         });
     }
 });
