@@ -156,7 +156,10 @@ $('#lightSlider').lightSlider({
     item: 1,
     loop: true,
     slideMargin: 0,
-    thumbItem: 9
+    thumbItem: 9,
+    keyPress: true,
+    adaptiveHeight: true,
+    autoWidth: true
 });
 
 
