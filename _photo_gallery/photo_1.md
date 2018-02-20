@@ -1,4 +1,5 @@
 ---
 title: photo_1
 date: 2018-02-20 15:06:18 +0000
+image_path: "/photogallery/rainbow.jpg"
 ---
