@@ -1,19 +1,18 @@
 ---
-layout: default
-permalink: "/Gallery/"
-title: Gallery
+layout: default 
+permalink: "/Gallery/" 
+title: Gallery 
 ---
 
 <section id="about">
     <div class="container">
         <div class="row">
-            <ul id="lightSlider">
+
+            <div class="galleria">
                 {% for image in site.photo_gallery %}
-                    <li data-thumb="{{ image.image_path }}">
-                        <img src="{{ image.image_path }}" />
-                    </li>
+                    <img src="{{ image.image_path }}"> 
                 {% endfor %}
-            </ul>
+            </div>
         </div>
     </div>
     </div>

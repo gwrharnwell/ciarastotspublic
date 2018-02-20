@@ -301,6 +301,8 @@ a:hover {
   color:#4267b2 !important;
 }
 
+.galleria{ max-width: 700px; height: 400px; background: #000 }
+
 #top-bar .dropdown-menu ul li a {
   display: block;
   font-size: 13px;
