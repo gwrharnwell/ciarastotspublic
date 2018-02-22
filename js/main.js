@@ -151,14 +151,9 @@ $(".fancybox").fancybox({
     }
 });
 
-$('#lightSlider').lightSlider({
-    gallery: true,
-    item: 1,
-    loop: true,
-    slideMargin: 0,
-    thumbItem: 9,
-    keyPress: true,
-    adaptiveHeight: true
-});
+if ($('.galleria').length > 0) { 
+    Galleria.loadTheme('https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.7/themes/classic/galleria.classic.min.js');
+    Galleria.run('.galleria');
+}
 
 

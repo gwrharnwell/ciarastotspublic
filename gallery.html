@@ -1,19 +1,18 @@
---- 
-layout: default
-permalink: /Gallery
-title: Gallery
+---
+layout: default 
+permalink: "/Gallery/" 
+title: Gallery 
 ---
 
 <section id="about">
     <div class="container">
         <div class="row">
-            <ul id="lightSlider">
+
+            <div class="galleria">
                 {% for image in site.photo_gallery %}
-                    <li data-thumb="{{ image.image_path }}">
-                        <img src="{{ image.image_path }}" />
-                    </li>
+                    <img src="{{ image.image_path }}"> 
                 {% endfor %}
-            </ul>
+            </div>
         </div>
     </div>
     </div>
@@ -26,7 +25,7 @@ title: Gallery
                 <div class="block">
                     <h2 class="title wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">GET IN TOUCH</h2>
                     <p class="wow fadeInDown" data-wow-delay=".5s" data-wow-duration="500ms">Contact us now if you want to find out more about our services</p>
-                    <a href="contact.html" class="btn btn-default btn-contact wow fadeInDown" data-wow-delay=".7s" data-wow-duration="500ms">Contact</a>
+                    <a href="{{ site.gitprefix }}/Contact/" class="btn btn-default btn-contact wow fadeInDown" data-wow-delay=".7s" data-wow-duration="500ms">Contact</a>
                 </div>
             </div>
 
