@@ -1355,6 +1355,11 @@ ul.social-icons li {
   max-width: 100%;
 }
 
+.grid img {
+width: 250px;
+margin: 5px;
+}
+
 
 /* Responsive styles
 ================================================== */

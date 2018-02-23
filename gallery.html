@@ -1,16 +1,23 @@
----
-layout: default
-permalink: "/Gallery/"
-title: Gallery
+--- 
+layout: default 
+permalink: "/Gallery/" 
+title: Gallery 
 ---
 
 <section id="about">
     <div class="container">
         <div class="row">
 
-            <div class="galleria">
+            <!-- <div class="galleria">
                 {% for image in site.photo_gallery %}
                     <img src="{{ image.image_path }}"> 
+                {% endfor %}
+            </div> -->
+            <div class="grid">
+                {% for image in site.photo_gallery %}
+                <div class="grid-item">   
+                    <img src="{{ image.image_path }}"> 
+                </div>
                 {% endfor %}
             </div>
         </div>
