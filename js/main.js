@@ -38,6 +38,12 @@
         });
     };
 
+    if ($('.galleria').length > 0) { 
+        Galleria.loadTheme('https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.7/themes/classic/galleria.classic.min.js');
+        Galleria.run('.galleria');
+    }
+    
+
     /* ========================================================================= */
     /*   Contact Form Validating
     /* ========================================================================= */
@@ -151,9 +157,5 @@ $(".fancybox").fancybox({
     }
 });
 
-if ($('.galleria').length > 0) { 
-    Galleria.loadTheme('https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.7/themes/classic/galleria.classic.min.js');
-    Galleria.run('.galleria');
-}
 
 
