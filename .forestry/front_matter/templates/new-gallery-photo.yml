@@ -37,9 +37,7 @@ pages:
 - _photo_gallery/ps7.md
 - _photo_gallery/ps5.md
 - _photo_gallery/ps4.md
-- _photo_gallery/preschool.md
 - _photo_gallery/paint.md
-- _photo_gallery/crayons.md
 hide_body: false
 fields:
 - name: title
