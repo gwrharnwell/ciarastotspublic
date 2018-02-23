@@ -1,23 +1,42 @@
 ---
 pages:
+- _photo_gallery/ps3.md
+- _photo_gallery/ps6.md
+- _photo_gallery/ps17.md
+- _photo_gallery/ps11.md
+- _photo_gallery/ps19.md
+- _photo_gallery/ps22.md
+- _photo_gallery/ps30.md
+- _photo_gallery/ps34-1.md
+- _photo_gallery/p36.md
+- _photo_gallery/ps37.md
+- _photo_gallery/ps38.md
+- _photo_gallery/ps37-1.md
+- _photo_gallery/ps36-1.md
+- _photo_gallery/ps36.md
+- _photo_gallery/ps34-2.md
+- _photo_gallery/ps34.md
+- _photo_gallery/ps32.md
+- _photo_gallery/ps31-1.md
+- _photo_gallery/ps31.md
+- _photo_gallery/ps30-1.md
+- _photo_gallery/ps25.md
+- _photo_gallery/ps24.md
+- _photo_gallery/ps23.md
+- _photo_gallery/ps21.md
+- _photo_gallery/ps20.md
+- _photo_gallery/ps16.md
 - _photo_gallery/ps15.md
 - _photo_gallery/ps14.md
 - _photo_gallery/ps13.md
 - _photo_gallery/ps12.md
-- _photo_gallery/ps11.md
-- _photo_gallery/ps3.md
 - _photo_gallery/ps2.md
 - _photo_gallery/ps10.md
 - _photo_gallery/ps9.md
 - _photo_gallery/ps8.md
 - _photo_gallery/ps7.md
-- _photo_gallery/ps6.md
 - _photo_gallery/ps5.md
 - _photo_gallery/ps4.md
-- _photo_gallery/preschool.md
-- _photo_gallery/paint.md
-- _photo_gallery/crayons.md
-- _photo_gallery/rainbow.md
 hide_body: false
 fields:
 - name: title
