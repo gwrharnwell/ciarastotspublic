@@ -375,7 +375,7 @@ a:hover {
 }
 
 .hero-curric{
-  background: url("../images/curriculum.jpg") no-repeat 50%;
+  background: url("../images/curriculum.jpg") no-repeat 50% !important;
 }
 
 .hero-decide{
