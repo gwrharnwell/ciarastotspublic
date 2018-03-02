@@ -376,13 +376,16 @@ a:hover {
 
 .hero-curric{
   background: url("../images/curriculum.jpg") no-repeat 50% !important;
+  background-size: cover !important;
 }
 
 .hero-decide{
   background: url("../images/decide.jpg") no-repeat 50% !important;
+  background-size: cover !important;
 }
 .hero-dev {
   background: url("../images/dev.jpg") no-repeat 50% !important;
+  background-size: cover !important;
 }
 
 #call-to-action {
