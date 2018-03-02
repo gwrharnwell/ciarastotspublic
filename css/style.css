@@ -315,7 +315,7 @@ a:hover {
 }
 
 #hero-area {
-  background: url("../images/daiga-ellaby-154931-min.jpg") no-repeat 50%;
+  background: url("../images/curriculum.jpg") no-repeat 50%;
   background-size: cover;
   background-attachment: fixed;
   padding: 230px 0;
@@ -375,10 +375,10 @@ a:hover {
 }
 
 .hero-decide{
-  background: url("../images/rainbow.jpg") no-repeat 50% !important;
+  background: url("../images/decide.jpg") no-repeat 50% !important;
 }
 .hero-dev {
-  background: url("../images/read.jpg") no-repeat 50% !important;
+  background: url("../images/dev.jpg") no-repeat 50% !important;
 }
 
 #call-to-action {
