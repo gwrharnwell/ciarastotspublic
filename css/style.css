@@ -315,7 +315,7 @@ a:hover {
 }
 
 #hero-area {
-  background: url("../images/curriculum.jpg") no-repeat 50%;
+  background: url("../images/daiga-ellaby-154931-min.jpg") no-repeat 50%;
   background-size: cover;
   background-attachment: fixed;
   padding: 230px 0;
@@ -372,6 +372,10 @@ a:hover {
   text-transform: uppercase;
   letter-spacing: normal;
   border-radius: 0;
+}
+
+.hero-curric{
+  background: url("../images/curriculum.jpg") no-repeat 50%;
 }
 
 .hero-decide{
